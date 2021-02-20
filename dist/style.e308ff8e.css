@@ -1,0 +1,86 @@
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    margin-top: 20px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.title1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-top: 25px;
+    position: relative;
+}
+.title2{
+    font: 1em sans-serif;
+    line-height: 1.5;
+    margin-top: 30px;
+    position: absolute;
+    left: 635px;
+}
+#img-div {
+width: 96vw;
+background-color: white;
+margin:75px 16px 0 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;    
+}
+
+#img-caption{
+    padding:15px;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+
+ul li{
+   padding-top: 30px;
+   margin-left: 100px;
+   color: rgb(91, 91, 91);
+}
+
+.juzi {
+  margin-top: 65px;
+  font-style: italic;
+  font-size: 1rem;
+  color: rgb(91, 91, 91);
+  line-height: 25px;
+  margin-left: 80px;
+}
+
+cite {
+  display: block;
+  padding-top: 20px;
+}
+
+#tribute-link{
+    margin-top: 35px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+a{
+    color: darkcyan;    
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
